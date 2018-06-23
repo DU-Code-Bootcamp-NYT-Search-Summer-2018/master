@@ -7,14 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="./resources/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=News+Cycle:400,700" rel="stylesheet">
 </head>
 <title>New York Times API</title>
 </head>
 
 <body>
-    <div id="header">
-        <h1> New York Times Search</h1>
-    </div>
+    <div id="content-all">
+        <div id="header">
+            <h1> New York Times Search</h1>
+        </div>
 
 
         <form id="search-form">
@@ -31,10 +33,20 @@
 
             <label> End Year (Optional) </label>
             <input id="endYr">
+
+            <div class="btns-all">
+                <input class="btn" id="searchBtn" type="submit" value="search">
+                <input class="btn" id="clearhBtn" type="button" value="clear results">
+            </div>
         </form>
 
+        <div id="articles">
+            <p> Top Artciles </p>
+            <div id="results">
 
-
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

@@ -1,11 +1,34 @@
+body{
+    font-family:"News Cycle", "Helvetica", sans-serif
+}
+
 #search-form{
  display:flex;
  flex-direction:column;
- width:80%;
- margin: 0 auto;
+ 
 }
+
+#content-all{
+    width:80%;
+    margin: 0 auto;
+}
+
+/* _______________ HEADING ____________ */
 
 label{
     margin-top:40px;
 }
 
+.btn{
+    width:30%;
+    margin:40px 0;
+}
+
+#searchBtn{
+    margin-right:10px;
+}
+
+.btns-all{
+    display:flex;
+    justify-content:flex-start;
+}
