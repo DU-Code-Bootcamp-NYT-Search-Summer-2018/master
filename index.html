@@ -57,7 +57,14 @@
     </div>
     <footer>
         <script>
-            fetchNYTData('Donald Trump');
+            $('#searchBtn').on('click', function(e){
+                e.preventDefault();   
+                var q = $('#searchTerm').val();
+                console.log(q);
+                fetchNYTData(q);
+            });
+            
+            
         </script>    
     </footer>
 </body>
