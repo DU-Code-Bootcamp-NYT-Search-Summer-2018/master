@@ -31,9 +31,11 @@ function fetchNYTData(qStr = '', beginDate = '', endDate = '', sort = '', fl = '
                 <h1>${headline}</h1>
                 <h3>${author}</h3>
                 <h4>Date: ${dateOfPub}</h4>
+                <img src="${image}" alt=""/>
                 <p><a href="${url}" target="_blank">${snippet}</a></p>
                 
             `;
+            // $('#results').append(article);
             console.log(article);
             console.log(image);
         });
