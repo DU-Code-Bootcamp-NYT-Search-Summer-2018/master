@@ -1,0 +1,514 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2018 The New York Times Company. All Rights Reserved.",
+    "response": {
+      "docs": [
+        {
+          "web_url": "https://www.nytimes.com/1989/01/15/books/a-death-in-leningrad.html",
+          "snippet": "LEAD:  STALIN AND THE KIROV MURDER  By Robert Conquest.  164 pp. New York:  Oxford University Press. $16.95.",
+          "print_page": "13",
+          "blog": {},
+          "source": "The New York Times",
+          "multimedia": [],
+          "headline": {
+            "main": "A DEATH IN LENINGRAD",
+            "kicker": null,
+            "content_kicker": null,
+            "print_headline": null,
+            "name": null,
+            "seo": null,
+            "sub": null
+          },
+          "keywords": [
+            {
+              "name": "creative_works",
+              "value": "STALIN AND THE KIROV MURDER (BOOK)",
+              "rank": 0,
+              "major": null
+            },
+            {
+              "name": "persons",
+              "value": "CONQUEST, ROBERT",
+              "rank": 0,
+              "major": null
+            },
+            {
+              "name": "subject",
+              "value": "BOOK REVIEWS",
+              "rank": 0,
+              "major": null
+            }
+          ],
+          "pub_date": "1989-01-15T00:00:00Z",
+          "document_type": "article",
+          "news_desk": "Book Review Desk",
+          "byline": {
+            "original": "By PETER H. SOLOMON; Peter H. Solomon Jr., a professor of political science at the University of Toronto, is writing a history of Soviet criminal justice under Stalin",
+            "person": [
+              {
+                "firstname": "Peter",
+                "middlename": "H.",
+                "lastname": "SOLOMON",
+                "qualifier": null,
+                "title": null,
+                "role": "reported",
+                "organization": "",
+                "rank": 1
+              }
+            ],
+            "organization": null
+          },
+          "type_of_material": "Review",
+          "_id": "4fd1a1bb8eb7c8105d6b7318",
+          "word_count": 858,
+          "score": 1
+        },
+        {
+          "web_url": "https://query.nytimes.com/gst/abstract.html?res=9B01E6D71739E63BBC4C51DFB766838B669EDE",
+          "snippet": "Spain repts Nasser has accepted Gen Franco's inv to visit Spain",
+          "abstract": "Spain repts Nasser has accepted Gen Franco's inv to visit Spain",
+          "print_page": "28",
+          "blog": {},
+          "source": "The New York Times",
+          "multimedia": [],
+          "headline": {
+            "main": "Nasser to Visit Spain",
+            "kicker": null,
+            "content_kicker": null,
+            "print_headline": null,
+            "name": null,
+            "seo": null,
+            "sub": null
+          },
+          "keywords": [
+            {
+              "name": "glocations",
+              "value": "MIDDLE EAST",
+              "rank": 0,
+              "major": null
+            },
+            {
+              "name": "subject",
+              "value": "ISRAELI-ARAB CONFLICT",
+              "rank": 0,
+              "major": null
+            },
+            {
+              "name": "subject",
+              "value": "1ST JA 16 PAR",
+              "rank": 0,
+              "major": null
+            }
+          ],
+          "pub_date": "1970-01-24T00:00:00Z",
+          "document_type": "article",
+          "type_of_material": "Article",
+          "_id": "4fc474a845c1498b0d9e2c92",
+          "word_count": 42,
+          "score": 1
+        },
+        {
+          "web_url": "https://www.nytimes.com/1862/01/24/news/congress.html",
+          "snippet": "In the Senate yesterday, petitions were presented for the employment of homeopathic physicians in the army. A joint resolution from the Michigan Legislature, in favor of the exchange of prisoners, with special reference to the case of Col. WILCOX,...",
+          "print_page": "4",
+          "blog": {},
+          "source": "The New York Times",
+          "multimedia": [],
+          "headline": {
+            "main": "CONGRESS.",
+            "kicker": null,
+            "content_kicker": null,
+            "print_headline": null,
+            "name": null,
+            "seo": null,
+            "sub": null
+          },
+          "keywords": [],
+          "pub_date": "1862-01-24T00:03:58Z",
+          "document_type": "article",
+          "type_of_material": "Editorial",
+          "_id": "4fbfdba945c1498b0d02fa44",
+          "word_count": 400,
+          "score": 1
+        },
+        {
+          "web_url": "https://runway.blogs.nytimes.com/2011/02/15/the-ghost-of-bill-blass/",
+          "snippet": "her blue-tinted shades, seated at a window looking out on Lexington Avenue. But the passing of that fabled society haunt - it shuttered a dozen years ago - has not deterred young designers from drawing on its patrician charms.",
+          "abstract": "her blue-tinted shades, seated at a window looking out on Lexington Avenue. But the passing of that fabled society haunt - it shuttered a dozen years ago - has not deterred young designers from drawing on its patrician charms.",
+          "blog": {},
+          "source": "The New York Times",
+          "multimedia": [],
+          "headline": {
+            "main": "The Ghost of Bill Blass",
+            "kicker": "On the Runway",
+            "content_kicker": null,
+            "print_headline": null,
+            "name": null,
+            "seo": null,
+            "sub": null
+          },
+          "keywords": [
+            {
+              "name": "type_of_material",
+              "value": "News",
+              "rank": 1,
+              "major": null
+            },
+            {
+              "name": "persons",
+              "value": "Blass, Bill",
+              "rank": 2,
+              "major": null
+            }
+          ],
+          "pub_date": "2011-02-15T17:01:34Z",
+          "document_type": "blogpost",
+          "byline": {
+            "original": "By RUTH LA FERLA",
+            "person": [
+              {
+                "firstname": "Ruth",
+                "middlename": null,
+                "lastname": "LA FERLA",
+                "qualifier": null,
+                "title": null,
+                "role": "reported",
+                "organization": "",
+                "rank": 1
+              }
+            ],
+            "organization": null
+          },
+          "type_of_material": "Blog",
+          "_id": "4fd39e788eb7c8105d8e1309",
+          "word_count": 423,
+          "score": 1
+        },
+        {
+          "web_url": "https://query.nytimes.com/gst/abstract.html?res=9904E7DF1439E033A25752C2A9679D946295D6CF",
+          "snippet": "DUESSELDORF, Nov. 20. -- German circles reported here today that the Ruhr industrialists had notified the French they intend to return on Thursday to resume the broken off negotiations with M. Frantzen's technical mission. But there is reason to b...",
+          "abstract": "Ruhr mine owners will meet French again, attitude of workers said to be responsible",
+          "print_page": "3",
+          "blog": {},
+          "source": "The New York Times",
+          "multimedia": [],
+          "headline": {
+            "main": "RUHR MINE OWNERS TO MEET FRENCH AGAIN; Attitude of Workers Said to Have Hastened Moves to Resume Work.",
+            "kicker": null,
+            "content_kicker": null,
+            "print_headline": null,
+            "name": null,
+            "seo": null,
+            "sub": null
+          },
+          "keywords": [
+            {
+              "name": "glocations",
+              "value": "GERMANY",
+              "rank": 0,
+              "major": null
+            },
+            {
+              "name": "glocations",
+              "value": "GERMANY",
+              "rank": 0,
+              "major": null
+            },
+            {
+              "name": "subject",
+              "value": "INDUSTRIALISTS",
+              "rank": 0,
+              "major": null
+            },
+            {
+              "name": "subject",
+              "value": "OCCUPATION BY THE ALLIES",
+              "rank": 0,
+              "major": null
+            },
+            {
+              "name": "subject",
+              "value": "EXTENSION OF OCCUPIED ZONE",
+              "rank": 0,
+              "major": null
+            },
+            {
+              "name": "subject",
+              "value": "GERMAN LABOR",
+              "rank": 0,
+              "major": null
+            }
+          ],
+          "pub_date": "1923-11-21T00:00:00Z",
+          "document_type": "article",
+          "byline": {
+            "original": "Special Cable to THE NEW YORK TIMES",
+            "person": [
+              {
+                "firstname": null,
+                "middlename": null,
+                "lastname": null,
+                "qualifier": null,
+                "title": null,
+                "role": "reported",
+                "organization": "",
+                "rank": 1
+              }
+            ],
+            "organization": null
+          },
+          "type_of_material": "Article",
+          "_id": "4fc0b0b845c1498b0d406f37",
+          "word_count": 276,
+          "score": 1
+        },
+        {
+          "web_url": "https://runway.blogs.nytimes.com/2011/02/15/halstons-disco-revival/",
+          "snippet": "The fall 2011 collection seems intent on sticking to a 1970s formula.",
+          "abstract": "The fall 2011 collection seems intent on sticking to a 1970s formula.",
+          "blog": {},
+          "source": "The New York Times",
+          "multimedia": [
+            {
+              "rank": 0,
+              "subtype": "thumbnail",
+              "caption": null,
+              "credit": null,
+              "type": "image",
+              "url": "images/2011/02/16/fashion/16halston_blog/16halston_blog-thumbStandard.jpg",
+              "height": 75,
+              "width": 75,
+              "legacy": {
+                "thumbnailheight": "75",
+                "thumbnail": "images/2011/02/16/fashion/16halston_blog/16halston_blog-thumbStandard.jpg",
+                "thumbnailwidth": "75"
+              },
+              "subType": "thumbnail",
+              "crop_name": null
+            }
+          ],
+          "headline": {
+            "main": "Halston's Disco Revival ",
+            "kicker": "On the Runway",
+            "content_kicker": null,
+            "print_headline": null,
+            "name": null,
+            "seo": null,
+            "sub": null
+          },
+          "keywords": [
+            {
+              "name": "organizations",
+              "value": "Halston (Fashion Label)",
+              "rank": 1,
+              "major": null
+            },
+            {
+              "name": "subject",
+              "value": "Fashion and Apparel",
+              "rank": 1,
+              "major": null
+            }
+          ],
+          "pub_date": "2011-02-15T19:43:04Z",
+          "document_type": "blogpost",
+          "news_desk": "Styles",
+          "section_name": "Fashion &amp; Style",
+          "byline": {
+            "original": "By ERIC WILSON",
+            "person": [
+              {
+                "firstname": "Eric",
+                "middlename": null,
+                "lastname": "WILSON",
+                "qualifier": null,
+                "title": null,
+                "role": "reported",
+                "organization": "",
+                "rank": 1
+              }
+            ],
+            "organization": null
+          },
+          "type_of_material": "Blog",
+          "_id": "4fd39e788eb7c8105d8e130a",
+          "word_count": 199,
+          "score": 1
+        },
+        {
+          "web_url": "https://query.nytimes.com/gst/abstract.html?res=9E04E6DB173AEF3ABC4D53DFBE66838A659EDE",
+          "snippet": "Unidentified body found strangled",
+          "abstract": "Unidentified body found strangled",
+          "print_page": "22",
+          "blog": {},
+          "source": "The New York Times",
+          "multimedia": [],
+          "headline": {
+            "main": "WOMAN STRANGLED, LEFT ON SIDEWALK; Wedding Ring Only Cine to Identity of Bronx Murder Victim",
+            "kicker": null,
+            "content_kicker": null,
+            "print_headline": null,
+            "name": null,
+            "seo": null,
+            "sub": null
+          },
+          "keywords": [
+            {
+              "name": "persons",
+              "value": "ANDERSEN , ERHARDT",
+              "rank": 0,
+              "major": null
+            },
+            {
+              "name": "glocations",
+              "value": "NEW YORK CITY",
+              "rank": 0,
+              "major": null
+            },
+            {
+              "name": "subject",
+              "value": "MURDERS AND ATTEMPTS TO MURDER",
+              "rank": 0,
+              "major": null
+            }
+          ],
+          "pub_date": "1941-08-05T00:00:00Z",
+          "document_type": "article",
+          "type_of_material": "Article",
+          "_id": "4fc2171845c1498b0d5f1ea1",
+          "word_count": 186,
+          "score": 1
+        },
+        {
+          "web_url": "https://query.nytimes.com/gst/abstract.html?res=9807E7DB163EE033A25755C2A9679C946597D6CF",
+          "snippet": "",
+          "print_page": "8",
+          "blog": {},
+          "source": "The New York Times",
+          "multimedia": [],
+          "headline": {
+            "main": "No Dictator.",
+            "kicker": "1",
+            "content_kicker": null,
+            "print_headline": null,
+            "name": null,
+            "seo": null,
+            "sub": null
+          },
+          "keywords": [],
+          "pub_date": "1904-01-26T00:00:00Z",
+          "document_type": "article",
+          "byline": {
+            "original": "From The Memphis (Tenn.) Commercial Appeal, (Dem.)",
+            "person": [
+              {
+                "firstname": null,
+                "middlename": null,
+                "lastname": null,
+                "qualifier": null,
+                "title": null,
+                "role": "reported",
+                "organization": "",
+                "rank": 1
+              }
+            ],
+            "organization": null
+          },
+          "type_of_material": "Editorial",
+          "_id": "4fc0478445c1498b0d21d50c",
+          "word_count": 42,
+          "score": 1
+        },
+        {
+          "web_url": "https://www.nytimes.com/2014/04/27/fashion/weddings/whitney-cale-peter-brejcha.html",
+          "snippet": "The bride is studying for a master’s degree in psychology; the groom is a litigation associate.",
+          "print_page": "17",
+          "blog": {},
+          "source": "The New York Times",
+          "multimedia": [],
+          "headline": {
+            "main": "Whitney Cale, Peter Brejcha",
+            "kicker": null,
+            "content_kicker": null,
+            "print_headline": "Whitney Cale, Peter Brejcha",
+            "name": null,
+            "seo": null,
+            "sub": null
+          },
+          "keywords": [
+            {
+              "name": "subject",
+              "value": "Weddings and Engagements",
+              "rank": 1,
+              "major": null
+            }
+          ],
+          "pub_date": "2014-04-27T00:00:00Z",
+          "document_type": "article",
+          "news_desk": "Society",
+          "section_name": "Weddings/Celebrations",
+          "byline": {
+            "original": null,
+            "person": null,
+            "organization": null
+          },
+          "type_of_material": "News",
+          "_id": "535c844e38f0d86f3893b59f",
+          "word_count": 211,
+          "score": 1
+        },
+        {
+          "web_url": "https://krugman.blogs.nytimes.com/2011/02/08/ideas-are-not-the-same-as-race/",
+          "snippet": "Academics are mostly liberal. So?",
+          "abstract": "Academics are mostly liberal. So?",
+          "blog": {},
+          "source": "The New York Times",
+          "multimedia": [],
+          "headline": {
+            "main": "Ideas Are Not The Same As Race",
+            "kicker": "Paul Krugman",
+            "content_kicker": null,
+            "print_headline": null,
+            "name": null,
+            "seo": null,
+            "sub": null
+          },
+          "keywords": [
+            {
+              "name": "type_of_material",
+              "value": "News",
+              "rank": 1,
+              "major": null
+            }
+          ],
+          "pub_date": "2011-02-08T09:43:54Z",
+          "document_type": "blogpost",
+          "byline": {
+            "original": "By PAUL KRUGMAN",
+            "person": [
+              {
+                "firstname": "Paul",
+                "middlename": null,
+                "lastname": "KRUGMAN",
+                "qualifier": null,
+                "title": null,
+                "role": "reported",
+                "organization": "",
+                "rank": 1
+              }
+            ],
+            "organization": null
+          },
+          "type_of_material": "Blog",
+          "_id": "4fd39e788eb7c8105d8e1310",
+          "word_count": 234,
+          "score": 1
+        }
+      ],
+      "meta": {
+        "hits": 15427596,
+        "offset": 0,
+        "time": 53
+      }
+    }
+  }
