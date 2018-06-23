@@ -1,11 +1,82 @@
+body {
+    font-family: "News Cycle", "Helvetica", sans-serif
+}
+
+#search-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#content-all {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* _______________ HEADING ____________ */
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    background-color:rgba(57, 92, 107);
+    padding:60px;
+    margin-bottom:40px;
+}
+
+
+/* ___________ Search Form __________  */
+
 #search-form{
- display:flex;
- flex-direction:column;
- width:80%;
- margin: 0 auto;
+    border:.5px rgba(238, 184, 104) solid;
+    padding:20px 40px;
 }
 
-label{
-    margin-top:40px;
+.section-heading{
+    font-weight:bold;
+    color:rgba(57, 92, 107);
+    font-size:20px;
+    padding-bottom:10px;
+    border-bottom:1px rgba(238, 184, 104) solid;
+    margin-bottom: 0px;
 }
 
+label {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+input {
+  height: 25px;
+}
+
+.btn {
+    width: 120px;
+    margin: 40px 0px 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: rgba(57, 92, 107);
+    background-color: rgba(230, 225, 197);
+    font-weight: bold;
+    letter-spacing: .5px;
+    border-color: rgba(238, 184, 104);
+    border-radius: 4px;
+    height: 35px;
+}
+
+#searchBtn {
+    margin-right: 10px;
+}
+
+.btns-all {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+input:focus {
+  outline-color: rgba(238, 184, 104);
+}

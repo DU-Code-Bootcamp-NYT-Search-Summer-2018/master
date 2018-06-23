@@ -9,18 +9,20 @@
     <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
+    <link href="https://fonts.googleapis.com/css?family=News+Cycle:400,700" rel="stylesheet">
 </head>
 <title>New York Times API</title>
 </head>
 
 <body>
-    <div id="header">
-        <h1> New York Times Search</h1>
-    </div>
+    <div id="content-all">
+
+            <h1><i class="fas fa-align-justify"></i> New York Times Search</h1>
+
 
 
         <form id="search-form">
-            <p> Search Parameters </p>
+            <p class="section-heading"><i class="fas fa-align-justify"></i> Search Parameters </p>
 
             <label> Search Term </label>
             <input id="searchTerm">
@@ -33,10 +35,21 @@
 
             <label> End Year (Optional) </label>
             <input id="endYr">
+
+            <div class="btns-all">
+                <button class="btn" id="searchBtn" type="submit"><i class="fas fa-search"></i>Search</button> 
+                <button class="btn" id="clearhBtn" type="submit"><i class="fas fa-trash-alt"></i>Clear Results</button>
+
+            </div>
         </form>
 
+        <div id="articles">
+            <p class="section-heading"><i class="fas fa-align-justify"></i> Top Articles </p>
+            <div id="results">
 
-
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
