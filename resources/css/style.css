@@ -1,34 +1,59 @@
-body{
-    font-family:"News Cycle", "Helvetica", sans-serif
+body {
+    font-family: "News Cycle", "Helvetica", sans-serif
 }
 
-#search-form{
- display:flex;
- flex-direction:column;
- 
+#search-form {
+    display: flex;
+    flex-direction: column;
 }
 
-#content-all{
-    width:80%;
+#content-all {
+    width: 80%;
     margin: 0 auto;
 }
 
 /* _______________ HEADING ____________ */
 
-label{
-    margin-top:40px;
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    background-color:rgba(57, 92, 107);
+    padding:60px;
+    margin-bottom:40px;
 }
 
-.btn{
-    width:30%;
-    margin:40px 0;
+
+/* ___________ Search Form __________  */
+
+#search-form{
+    border:.5px rgba(238, 184, 104) solid;
+    padding:20px 40px;
 }
 
-#searchBtn{
-    margin-right:10px;
+.section-heading{
+    font-weight:bold;
+    color:rgba(57, 92, 107);
+    font-size:20px;
+    padding-bottom:10px;
+    border-bottom:1px rgba(238, 184, 104) solid;
 }
 
-.btns-all{
-    display:flex;
-    justify-content:flex-start;
+label {
+    margin-top: 40px;
+}
+
+.btn {
+    width: 30%;
+    margin: 40px 0;
+}
+
+#searchBtn {
+    margin-right: 10px;
+}
+
+.btns-all {
+    display: flex;
+    justify-content: flex-start;
 }
