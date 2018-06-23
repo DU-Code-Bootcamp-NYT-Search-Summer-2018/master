@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="./resources/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
     <link href="https://fonts.googleapis.com/css?family=News+Cycle:400,700" rel="stylesheet">
 </head>
 <title>New York Times API</title>
@@ -15,12 +17,12 @@
 <body>
     <div id="content-all">
 
-            <h1> New York Times Search</h1>
+            <h1><i class="fas fa-align-justify"></i> New York Times Search</h1>
 
 
 
         <form id="search-form">
-            <p class="section-heading"> Search Parameters </p>
+            <p class="section-heading"><i class="fas fa-align-justify"></i> Search Parameters </p>
 
             <label> Search Term </label>
             <input id="searchTerm">
@@ -35,13 +37,14 @@
             <input id="endYr">
 
             <div class="btns-all">
-                <input class="btn" id="searchBtn" type="submit" value="search">
-                <input class="btn" id="clearhBtn" type="button" value="clear results">
+                <button class="btn" id="searchBtn" type="submit"><i class="fas fa-search"></i>Search</button> 
+                <button class="btn" id="clearhBtn" type="submit"><i class="fas fa-trash-alt"></i>Clear Results</button>
+
             </div>
         </form>
 
         <div id="articles">
-            <p class="section-heading"> Top Artciles </p>
+            <p class="section-heading"><i class="fas fa-align-justify"></i> Top Articles </p>
             <div id="results">
 
             </div>
