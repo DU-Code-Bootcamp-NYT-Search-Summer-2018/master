@@ -12,6 +12,10 @@ body {
     margin: 0 auto;
 }
 
+i{
+    margin-right:5px;
+}
+
 /* _______________ HEADING ____________ */
 
 h1 {
@@ -79,4 +83,11 @@ input {
 
 input:focus {
   outline-color: rgba(238, 184, 104);
+}
+
+/* ___________________ RETURNED ARTICLES______________ */
+
+.story{
+    width:80%;
+    display:block;
 }
