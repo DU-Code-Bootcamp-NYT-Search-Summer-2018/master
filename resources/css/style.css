@@ -12,36 +12,35 @@ body {
     margin: 0 auto;
 }
 
-i{
-    margin-right:5px;
+i {
+    margin-right: 5px;
 }
 
 /* _______________ HEADING ____________ */
 
-h1 {
+#main-header {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: white;
-    background-color:rgba(57, 92, 107);
-    padding:60px;
-    margin-bottom:40px;
+    background-color: rgba(57, 92, 107);
+    padding: 60px;
+    margin-bottom: 40px;
 }
-
 
 /* ___________ Search Form __________  */
 
-#search-form{
-    border:.5px rgba(238, 184, 104) solid;
-    padding:20px 40px;
+#search-form {
+    border: .5px rgba(238, 184, 104) solid;
+    padding: 20px 40px;
 }
 
-.section-heading{
-    font-weight:bold;
-    color:rgba(57, 92, 107);
-    font-size:20px;
-    padding-bottom:10px;
-    border-bottom:1px rgba(238, 184, 104) solid;
+.section-heading {
+    font-weight: bold;
+    color: rgba(57, 92, 107);
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px rgba(238, 184, 104) solid;
     margin-bottom: 0px;
 }
 
@@ -51,7 +50,7 @@ label {
 }
 
 input {
-  height: 25px;
+    height: 25px;
 }
 
 .btn {
@@ -78,16 +77,60 @@ input {
 }
 
 .btn:hover {
-  background-color: white;
+    background-color: white;
 }
 
 input:focus {
-  outline-color: rgba(238, 184, 104);
+    outline-color: rgba(238, 184, 104);
 }
 
 /* ___________________ RETURNED ARTICLES______________ */
 
-.story{
-    width:80%;
-    display:block;
+.story {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    border:rgba(238, 184, 104)  1px solid;
+    margin-top:30px;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content:center;
+    align-items:center;
 }
+
+.story h1{
+    font-size:20px;
+    color: rgba(57, 92, 107);
+}
+
+
+.story h3{
+ font-size:12px;
+ font-weight:bold;
+ margin-top:-10px;
+}
+
+.story h4{
+    font-size:12px;
+    font-weight:lighter;
+}
+
+.story img{
+    width:200px;
+    height:auto;
+    display:block;
+
+}
+
+.story p{
+    text-align:center;
+    /* border:1px red solid; */
+    width:80%;
+    margin:0 auto;
+    font-size:12px;
+    margin-top:25px;
+
+}
+
