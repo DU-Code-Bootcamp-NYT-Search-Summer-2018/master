@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./resources/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=News+Cycle:400,700" rel="stylesheet">
+</head>
+<title>New York Times API</title>
+</head>
+
+<body>
+    <div id="content-all">
+
+            <h1> New York Times Search</h1>
+
+
+
+        <form id="search-form">
+            <p class="section-heading"> Search Parameters </p>
+
+            <label> Search Term </label>
+            <input id="searchTerm">
+
+            <label> Number of Reacord to Retrieve </label>
+            <input id="numRecords">
+
+            <label> Start Year (Optional) </label>
+            <input id="startYr">
+
+            <label> End Year (Optional) </label>
+            <input id="endYr">
+
+            <div class="btns-all">
+                <input class="btn" id="searchBtn" type="submit" value="search">
+                <input class="btn" id="clearhBtn" type="button" value="clear results">
+            </div>
+        </form>
+
+        <div id="articles">
+            <p class="section-heading"> Top Artciles </p>
+            <div id="results">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
