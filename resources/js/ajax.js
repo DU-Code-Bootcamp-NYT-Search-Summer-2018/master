@@ -25,17 +25,18 @@ function fetchNYTData(qStr = '', beginDate = '', endDate = '', sort = '', fl = '
             let author = element.byline.original;
             let dateOfPub = element.pub_date;
             let snippet = element.snippet;
-            let image = element.multimedia[2].url;
+            let image = element.multimedia[4].url;
             let url = element.web_url;
             let article = `
+                <div class="story">
                 <h1>${headline}</h1>
                 <h3>${author}</h3>
                 <h4>Date: ${dateOfPub}</h4>
-                <img src="${image}" alt=""/>
+                <img src="https://www.nytimes.com/${image}" alt=""/>
                 <p><a href="${url}" target="_blank">${snippet}</a></p>
-                
+                </div>
             `;
-            // $('#results').append(article);
+            $('#results').append(article);
             console.log(article);
             console.log(image);
         });
