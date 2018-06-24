@@ -33,7 +33,7 @@ function fetchNYTData(qStr = '', beginDate = '', endDate = '', sort = '', fl = '
                 <h3>${author}</h3>
                 <h4>Date: ${dateOfPub}</h4>
                 <img src="https://www.nytimes.com/${image}" alt=""/>
-                <p><a href="${url}" target="_blank">${snippet}</a></p>
+                <button id="article-btn" class="btn"><a href="${url}" target="_blank"> Read Article </a></button>
                 </div>
             `;
             $('#results').append(article);

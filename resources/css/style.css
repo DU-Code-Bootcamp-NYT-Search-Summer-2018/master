@@ -137,3 +137,8 @@ input:focus {
 #clearBtn{
     width:180px;
 }
+
+#article-btn{
+    color:rgba(57, 92, 107);;
+    text-decoration:none;
+}
