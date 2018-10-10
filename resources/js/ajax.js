@@ -1,22 +1,21 @@
-
-function fetchNYTData(qStr = '', beginDate = '', endDate = '', sort = '', fl = ''){
+function fetchNYTData(qStr = '', beginDate = '', endDate = '', sort = '', fl = '') {
     var articles;
     var data;
     var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
     url += '?' + $.param({
-    'api-key': "cca7f97c1a174056a680cad28fb81d54",
-    'q': qStr,
-    'begin_date': "20180101",
-    'end_date': "20180102",
-    'sort': "newest",
-    // 'fl': "snippet",
-    // 'hl':'true',
-    // 'page':0
+        'api-key': "cca7f97c1a174056a680cad28fb81d54",
+        'q': qStr,
+        'begin_date': "20180101",
+        'end_date': "20180102",
+        'sort': "newest",
+        // 'fl': "snippet",
+        // 'hl':'true',
+        // 'page':0
     });
     articles = $.ajax({
-    url: url,
-    method: 'GET',
-    }).done(function(result) {
+        url: url,
+        method: 'GET',
+    }).done(function (result) {
         data = result;
         console.log(result);
         result.response.docs.forEach(element => {
@@ -37,16 +36,24 @@ function fetchNYTData(qStr = '', beginDate = '', endDate = '', sort = '', fl = '
                 </div>
             `;
             $('#results').append(article);
-            console.log(article);
-            console.log(image);
+           // console.log(article);
+           // console.log(image);
         });
         return result;
-        
-    }).fail(function(err) {
-    throw err;
+
+    }).fail(function (err) {
+        throw err;
     });
     console.log('This is the output....');
     console.log(data);
     console.log()
     return data;
 }
+
+// $("#searchBtn").click(function () {
+//     console.log("search was clicked");
+//     event.preventDefault();
+//     if ($("#searchTerm").val().trim().length > 0) {
+//         q = $("#searchTerm").val().trim();
+//     }
+// });
